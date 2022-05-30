@@ -58,7 +58,7 @@ select * from customer1 order by city
 select * from customer1 order by city desc
 
 --10.Select all records from the Customers table, sort the result alphabetically, first by the column Country, then, by the column City
-
+select * from customer1 order by country, city
 
 --11.Select all records from the Customers where the PostalCode column is empty.
 select * from customer1 where postalCode is null
@@ -71,7 +71,7 @@ select * from customer1 where postalCode is not null
 --14.Delete all the records from the Customers table where the Country value is 'Norway'
 delete from customer1 where country = 'Norway'
 
---15.
+--15. these are solved in product table.
 --16.
 --17.
 --18.
@@ -109,7 +109,7 @@ select * from customer1 where country in('Norway', 'France')
 --30.Use the IN operator to select all the records where Country is NOT "Norway" and NOT "France".
 select * from customer1 where not country in('Norway', 'France')
 
---31.
+--31. in Product table
 --32.
 --33.
 

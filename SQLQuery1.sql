@@ -110,3 +110,4 @@ select * from Person where Country not like '____a'
 
 select * from Person where country is null --if no records means there's no record that has null value.
 select * from Person where personName is not null -- if no record means that has null values in it
+
